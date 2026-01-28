@@ -1,0 +1,72 @@
+.gitignore
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Maven
+target/
+.mvn/wrapper/
+maven-wrapper.jar
+maven-wrapper.properties
+
+# Gradle
+.gradle/
+build/
+gradle-wrapper.jar
+
+# Build output
+bin/
+dist/
+out/
+
+# Logs
+logs/
+*.log
+log/
+
+# Spring Boot
+spring-boot-devtools.properties
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.h2.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.#*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled classes
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Package files
+dependency-reduced-pom.xml
+.classpath
+.project
+.settings/
+*.iml
+*.ipr
+*.iws
