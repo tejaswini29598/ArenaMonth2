@@ -7,16 +7,16 @@ Complete Spring Boot e-commerce backend system with REST APIs, Spring Data JPA, 
 This is a full-featured e-commerce backend application built with Spring Boot 2.7.14 and Java 17. It provides a complete REST API for managing products, categories, users, orders, and shopping carts.
 
 ### Key Features
-- ✅ Product catalog management with categories
-- ✅ User authentication and authorization
-- ✅ Shopping cart functionality
-- ✅ Order processing system
-- ✅ Advanced search and filtering
-- ✅ JWT-based security
-- ✅ Comprehensive error handling
-- ✅ API documentation with Swagger
-- ✅ Docker support
-- ✅ Unit and integration tests
+-  Product catalog management with categories
+-  User authentication and authorization
+-  Shopping cart functionality
+-  Order processing system
+-  Advanced search and filtering
+-  JWT-based security
+-  Comprehensive error handling
+-  API documentation with Swagger
+-  Docker support
+-  Unit and integration tests
 
 ## 🚀 Quick Start
 
@@ -279,18 +279,18 @@ logging.level.com.ecommerce=DEBUG
 logging.file.name=logs/ecommerce-backend.log
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Create a feature branch: `git checkout -b feature/feature-name`
 2. Commit changes: `git commit -am 'Add feature'`
 3. Push to branch: `git push origin feature/feature-name`
 4. Create Pull Request
 
-## 📄 License
+##  License
 
 MIT License - see LICENSE file for details
 
-## 🆘 Troubleshooting
+## Troubleshooting
 
 ### Port Already in Use
 ```bash
@@ -308,11 +308,7 @@ lsof -ti:8080 | xargs kill -9
 - Check SECRET_KEY configuration
 - Ensure Authorization header format: `Bearer <token>`
 
-## 📞 Support
 
-For issues and questions:
-- Create an issue in the repository
-- Contact: support@ecommerce.com
 
 ---
 
